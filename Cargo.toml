@@ -1,0 +1,16 @@
+[package]
+name = "wttr"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.80"
+clap = { version = "4.5.1", features = ["derive"] }
+derive-getters = "0.3.0"
+home = "0.5.9"
+jq-rs = { version = "0.4.1", features = ["bundled"] }
+reqwest = { version = "0.11.24", features = ["blocking"] }
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.114"
